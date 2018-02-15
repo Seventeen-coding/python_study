@@ -37,7 +37,7 @@ now = time.strftime('%H%M%S')
 comment = input('Enter a comment -->')
 
 if len(comment) == 0:
-    target = today + os.sep + now + ',zip'
+    target = today + os.sep + now + '.zip'
 else:
     target = today + os.sep + now + \
              '_' + comment.replace(' ','_') + '.zip'
